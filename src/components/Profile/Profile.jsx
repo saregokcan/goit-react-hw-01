@@ -4,13 +4,13 @@ function Profile() {
     return ( 
         <div className={css.card}>
   <div className={css.description}>
-    <img
+    <img className={css.avatar}
       src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
       alt="User avatar"
     />
     <p className={css.className}>Petra Marica</p>
-    <p className={css.userName} >@pmarica</p>
-    <p className={css.country}>Salvador, Brasil</p>
+    <p className={css.userTag} >@pmarica</p>
+    <p className={css.userLocation}>Salvador, Brasil</p>
   </div>
 
   <ul className={css.stats}>
