@@ -1,0 +1,17 @@
+.friendsArea {
+  display: flex;
+  gap: 12px;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 100px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
